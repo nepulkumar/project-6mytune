@@ -1,0 +1,108 @@
+:root{
+    --purple500:#281154;
+    --purple300:#270082;
+    --purple600:#1b0058;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: 1200px;
+    color: white;
+}
+.container{
+    max-width: 900px;
+    height: 40px;
+    margin: 0 auto;
+   
+}
+header{
+    background-color: var(--purple300);
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    padding: 20px 0;
+
+}
+.logo{
+      font-size: 32px;
+      font-weight: 600;
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+
+}
+button:hover{
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+    opacity: 0.8;
+}
+nav ul{
+    display: flex;
+    gap:50px
+
+
+}
+nav ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+nav ul li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+}
+.hero-section{
+   background-image: url(images/firstpage.avif);
+   background-size: cover; 
+   height: 100vh;
+
+    color: white;
+    place-items: center;
+    text-align: center;
+
+}
+.hero-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero-section h1{
+    font-size: 96px;
+  
+
+}
+.hero-section h3{
+    font-size: 32px;
+}
+.music-section{
+    padding-top: 300px;
+    background: var(--purple500);
+}
+.music-section .container{
+    display: flex;
+    flex-direction: column;
+    gap : 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.ipad-iphone-img{
+    margin-top: -300px;
+    position: relative;
+    top: 400px;
+
+}
+
+ 
